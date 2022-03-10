@@ -1,0 +1,11 @@
+## Mostly needed for longterm projects ##
+
+0.1.0: 2021 Jan 01
+
+* fixed issue A
+
+* added feature B
+
+* updated thing C
+
+* removed widget D
