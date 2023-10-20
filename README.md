@@ -5,9 +5,9 @@ _Project overview image here, if possible_
 
 _Short, one to two line project description._
  
-This code has been developed by  as part of the project »Digital Pathology«.
+This code has been developed by  as part of the project »Computational Pathology Heidelberg (CPH)«.
 
-Copyright (c) 2022.
+Copyright (c) 2023.
 
 For information on usage and redistribution, and for a DISCLAIMER OF ALL
 WARRANTIES, see the file, "LICENSE," in this distribution.
