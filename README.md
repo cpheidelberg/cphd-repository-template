@@ -1,87 +1,117 @@
-Project Name
-============
+# Project Name
 
-_Project overview image here, if possible_
+![Project Overview](link-to-project-image)
 
-_Short, one to two line project description._
- 
-This code has been developed by  as part of the project »Computational Pathology Heidelberg (CPH)«.
+A short, one to two-line project description.
 
-Copyright (c) 2023.
+**Copyright (c) 2023.**
 
-For information on usage and redistribution, and for a DISCLAIMER OF ALL
-WARRANTIES, see the file, "LICENSE," in this distribution.
+This code has been developed as part of the "Computational Pathology Heidelberg (CPH)" project.
 
-BSD Simplified License.
+For detailed information on usage, redistribution, and a DISCLAIMER OF ALL WARRANTIES, please refer to the "LICENSE" file in this distribution.
 
-Description
------------
+**BSD Simplified License**
 
-_Detailed project description. Don't forget to include relevant attribution for forked, adapted, or inspired projects._
+## GitHub Repository Naming
+To name your repositories, please use the following naming convention:
 
-### Structure
+`[Prefix]-[Project Name]-[Tech Stack]`
 
-_List repo folder structure for larger, more complicated projects_
+- **Prefix**: Use prefixes to categorize repositories, e.g.,
+  - `proj-` for project repositories
+  - `lib-` for libraries
+  - `doc-` for documentation
+  - `app-` for applications
+  - `data-` for data-related repositories
 
-* folder1/: contains models
-* folder2/: contains media assets
-* etc...
+- **Project Name**: Provide a concise description of the project or repository's main purpose. This should be the most prominent part of the name.
 
-Requirements
-------------
+- **Tech Stack**: Specify the technology, framework, tool, etc., on which the project is based.
 
-(Software) dependencies:
-* libA
-* libB
-* etc...
+- **Use CamelCase for Multi-Word Names**: If necessary, use camelCase for multi-word names, e.g., "computationalPathology."
 
-Operating systems/platforms:
-* macOS
-* Linux
-* Windows
-* etc...
+- **No Underscores or Mixed Case**: Stick to hyphens and lowercase letters for simplicity and consistency.
 
-_Add any notes about which platforms or setups were used for development & testing._
+- **No Special Characters**: Avoid special characters, spaces, or symbols in repository names.
 
-Installation & Build
---------------------
+For example, if you have a machine learning project related to image processing using Pytorch and OpenCV you can use:
+
+- `proj-image-processing-pytorch-opencv`
+- `proj-imageProcessing-pytorch-opencv`
+
+## Description
+Detailed project description, including relevant attribution for forked, adapted, or inspired projects.
+
+### Project Structure
+For larger, more complicated projects, this is the repo folder structure:
+
+- `folder1/`: Contains models.
+- `folder2/`: Contains media assets.
+- ...
+
+## Requirements
+
+### Software Dependencies
+- libA (version X.Y.Z)
+- libB (version A.B.C)
+- ...
+
+### Supported Operating Systems
+- macOS
+- Linux
+- Windows
+- ...
+  
+(Add any notes about the platforms or setups used for development & testing.)
+
+## Installation & Build
 
 _General dependency & build install instructions with per-platform subsections when needed. Please include commandline steps, when applicable._
 
-Download and Install [Anaconda](https://www.anaconda.com/products/individual). Afterwards create a virtual environment:
-
+To get started, follow these steps:
+1. Download and install [Anaconda](https://www.anaconda.com/products/individual).
+2. Create a virtual environment:
 ```shell
 $ conda create -n "name" python=3.7
 $ conda activate "name"
 $ pip install -r requirements.txt
 ```
+3. Install project dependencies
+```shell
+$ pip install -r requirements.txt
+```
+(Include any platform-specific instructions if needed.)
 
-Usage
------
+## Usage
+After installation, you can use the application as follows:
 
-_Usage instructions for when the application is built and installed._
-
-#### Show Help
+### Show Help
 ```
 $ python executable.py --help
 ```
 
-#### scenario 1
+### Scenario 1
 ```
 $ python executable.py --parameter 42
 ```
 
-References / Further Reading
-----------------------------
+(Provide more usage examples if applicable.)
 
-_List useful references, related projects, or papers here._
+## References / Further Reading
+Here are some useful references and related projects:
+- [paper](www.google.com)
+- [paper2](www.google.com)
 
-* [paper](www.google.com)
-* [paper2](www.google.com)
+## Contribute
+Contributions are very welcome! Here's how to get involved:
 
-Contribute
-----------
+1. Clone or fork the repository.
+2. Make your changes or improvements.
+3. Create a pull request.
+4. If you find any bugs or have suggestions, please log them here as well.
 
-Contributions are very welcome! Clone or fork the repo, then request a pull / merge.
+(Include additional details on development environment setup, coding style, testing, and issue reporting as needed.)
 
-If you find any bugs or suggestions please log them here as well.
+---
+**Author:** Marlen Runz <br>
+**Contact:** [marlen.runz@uni-heidelberg.de](mailto:marlen.runz@uni-heidelberg.de)
